@@ -1,5 +1,7 @@
 function changeCheck(el)
 {
+     var $ = jQuery = jquery_3_1_0;
+
      var el = el,
           input = el.getElementsByTagName("input")[0];
 		
@@ -17,6 +19,8 @@ function changeCheck(el)
 }
 function startChangeCheck(el)
 {
+     var $ = jQuery = jquery_3_1_0;
+
 	var el = el,
           input = el.getElementsByTagName("input")[0];
      if(input.checked)

@@ -2,6 +2,8 @@
 * http://sorgalla.com/jcarousel/
 * Copyright (c) 2006-2015 Jan Sorgalla; Licensed MIT */
 (function($) {
+    var $ = jQuery = jquery_3_1_0;
+
     'use strict';
 
     var jCarousel = $.jCarousel = {};

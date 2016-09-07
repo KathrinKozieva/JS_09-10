@@ -1,4 +1,6 @@
 $(function() {
+	var $ = jQuery = jquery_3_1_0;
+
 	$(".nav li").hover(
 	function() {
 		$(this).children("ul").stop().slideDown(350);
@@ -9,6 +11,8 @@ $(function() {
 })
 
 $(function() {
+    var $ = jQuery = jquery_3_1_0;
+
 	$('.nav a').hover(
 	function() {
 		$(this).stop().animate({color:"#000", backgroundColor:"#ace3cf"}, 350);

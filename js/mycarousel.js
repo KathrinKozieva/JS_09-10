@@ -1,5 +1,6 @@
 (function($) {
     $(function() {
+        var $ = jQuery = jquery_3_1_0;
         var jcarousel = $('.jcarousel');
 
         jcarousel
